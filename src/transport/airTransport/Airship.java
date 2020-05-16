@@ -1,6 +1,6 @@
 package transport.airTransport;
 
-import transport.maritimeMeansOfTransport.AirTransport;
+import transport.AirTransport;
 
 /**
  * @description:

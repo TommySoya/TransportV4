@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>transport</OriginalElement>
+  <nodes>
+    <node x="490.99999999999994" y="607.0">transport.MaritimeMeansOfTransport</node>
+    <node x="463.99999999999994" y="737.0">transport.maritimeMeansOfTransport</node>
+    <node x="229.5" y="0.0">transport.Transport</node>
+    <node x="236.0" y="737.0">transport.airTransport</node>
+    <node x="0.0" y="737.0">transport.landTransport</node>
+    <node x="256.0" y="607.0">transport.AirTransport</node>
+    <node x="18.0" y="607.0">transport.LandTransport</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="transport.airTransport" target="transport.AirTransport">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="transport.maritimeMeansOfTransport" target="transport.MaritimeMeansOfTransport">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="transport.LandTransport" target="transport.Transport">
+      <point x="0.0" y="-40.0" />
+      <point x="108.0" y="582.0" />
+      <point x="266.3333333333333" y="582.0" />
+      <point x="-73.66666666666669" y="278.5" />
+    </edge>
+    <edge source="transport.MaritimeMeansOfTransport" target="transport.Transport">
+      <point x="0.0" y="-40.0" />
+      <point x="620.5" y="582.0" />
+      <point x="413.66666666666674" y="582.0" />
+      <point x="73.66666666666674" y="278.5" />
+    </edge>
+    <edge source="transport.landTransport" target="transport.LandTransport">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="40.0" />
+    </edge>
+    <edge source="transport.AirTransport" target="transport.Transport">
+      <point x="0.0" y="-40.0" />
+      <point x="0.0" y="278.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8187579214195184" x="388.5" y="384.5" />
+  <SelectedNodes>
+    <node>transport.LandTransport</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

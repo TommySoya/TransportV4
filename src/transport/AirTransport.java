@@ -1,4 +1,4 @@
-package transport.maritimeMeansOfTransport;
+package transport;
 
 import transport.Transport;
 
